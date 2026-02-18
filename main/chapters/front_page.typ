@@ -1,4 +1,4 @@
-#import "config.typ": *
+#import "../config.typ": *
 
 #let create() = {
   set page(
@@ -14,7 +14,7 @@
       Università degli Studi di Napoli Federico II\
 
       #set text(size: 18pt)
-      #image("../images/logo_unina.png", width: 40%)\
+      #image("../../images/logo_unina.png", width: 40%)\
       Scuola Politecnica e delle Scienze di Base\
       Dipartimento di Ingegneria Elettrica e Tecnologie dell'Informazione\
       Corso di Laurea Triennale in Ingegneria Informatica\

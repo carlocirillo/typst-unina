@@ -1,5 +1,5 @@
 #import "config.typ": *
-#import "front_page.typ"
+#import "chapters/front_page.typ"
 
 #set document(
   title: [
