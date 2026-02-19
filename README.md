@@ -50,4 +50,4 @@ Se invece si sta usando l'editor online non è possibile (che io sappia) compila
 7. Compilare con `typst compile main.typ target/main.pdf`
 
 ### Editor online
-*TODO*
+È presente una copia del template sull'editor online [qui](https://typst.app/project/rnz8hEtDFoP44VwPH31qU6)

@@ -17,3 +17,13 @@
 
   doc
 }
+
+#let load-bib(main: false) = {
+  counter("bibs").step()
+
+  context if main {
+    [#bibliography("/content/bibliography.yml") <main-bib>]
+  } else if query(<main-bib>) == () and counter("bibs").get().first() == 1 {
+    bibliography("/content/bibliography.yml")
+  }
+}

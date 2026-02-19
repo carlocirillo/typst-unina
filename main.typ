@@ -38,4 +38,4 @@
 #include "content/sections/chapter1.typ"
 
 #pagebreak()
-#bibliography("content/bibliography.yml")
+#load-bib(main: true)
