@@ -1,6 +1,6 @@
 #import "content/config.typ": *
-#import "content/chapters/front_page.typ"
-#import "content/chapters/index.typ"
+
+#show: conf
 
 #set document(
   title: [
@@ -9,20 +9,27 @@
   author: nome + " " + cognome
 )
 
-#front_page.create()
-#pagebreak()
+#include "content/sections/front_page.typ"
 
-#index.create()
-#pagebreak()
+#include "content/sections/dedication.typ"
+
+#include "content/sections/table_of_contents.typ"
 
 #set page(
   paper: "a4",
   numbering: "1",
   header: align(right)[
-    #text(size: 15pt, titolo)
+    #text(size: 12pt, style: "oblique", titolo)
     #line(length: 100%, stroke: 0.5pt)
   ]
 )
+#counter(page).update(1)
 
-#include "content/chapters/chapter1.typ"
-#include "content/chapters/chapter2.typ"
+#include "content/sections/introduction.typ"
+#pagebreak()
+
+#include "content/sections/abstract.typ"
+#pagebreak()
+
+#set heading(numbering: "1.")
+#include "content/sections/chapter1.typ"
