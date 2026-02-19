@@ -10,6 +10,6 @@
 #outline(
   title: box(
     text()[Indice],
-    inset: (bottom: 1em)
+    inset: (bottom: 0.3em)
   )
 )

@@ -10,7 +10,7 @@
   show heading.where(level: 1): set text(size: 28pt)
   show heading.where(level: 1): it => {
     it
-    v(3pt)
+    v(5pt)
   }
 
   show outline: set text(size: 15pt)

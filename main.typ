@@ -16,12 +16,7 @@
 #include "content/sections/table_of_contents.typ"
 
 #set page(
-  paper: "a4",
   numbering: "1",
-  header: align(right)[
-    #text(size: 12pt, style: "oblique", titolo)
-    #line(length: 100%, stroke: 0.5pt)
-  ]
 )
 #counter(page).update(1)
 
@@ -31,5 +26,16 @@
 #include "content/sections/abstract.typ"
 #pagebreak()
 
+#set page(
+  header: align(right)[
+    #text(size: 12pt, style: "oblique", titolo)
+    #line(length: 100%, stroke: 0.5pt)
+  ]
+)
+
 #set heading(numbering: "1.")
+
 #include "content/sections/chapter1.typ"
+
+#pagebreak()
+#bibliography("content/bibliography.yml")
