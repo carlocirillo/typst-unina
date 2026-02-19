@@ -4,6 +4,8 @@ Template per una tesi di laurea in typst per l'università Federico II.
 ## Preview frontespizio
 <img src=".github/frontespizio.png" alt="frontespizio" width="400"/>
 
+*Riferirsi al file `target/main.pdf` per vedere il risultato completo*
+
 ## Struttura
 . \
 ├── .github \
