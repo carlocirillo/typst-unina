@@ -25,3 +25,6 @@ File principale, include tutti gli altri capitoli e le impostazioni di formattaz
 - ### `target/`
 Directory di destinazione per il compilatore
 > **_NOTA:_** nel progetto non è presente un Makefile, bisogna scegliere `target/` come cartella di destinazione dalle impostazioni dell'editor. Se invece si sta usando l'editor online non è possibile (che io sappia) compilare in `target/` perché si può solo esportare e scaricare il pdf.
+
+## Preview frontespizio
+![Frontespizio](.github/frontespizio.png)
