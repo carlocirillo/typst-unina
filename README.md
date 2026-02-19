@@ -27,4 +27,4 @@ Directory di destinazione per il compilatore
 > **_NOTA:_** nel progetto non è presente un Makefile, bisogna scegliere `target/` come cartella di destinazione dalle impostazioni dell'editor. Se invece si sta usando l'editor online non è possibile (che io sappia) compilare in `target/` perché si può solo esportare e scaricare il pdf.
 
 ## Preview frontespizio
-![Frontespizio](.github/frontespizio.png)
+![Frontespizio](.github/frontespizio.png =250x)
