@@ -18,7 +18,8 @@ Template per una tesi di laurea in typst per l'università Federico II.
 │   │     ├── front_page.typ \
 │   │     ├── introduction.typ \
 │   │     └── table_of_contents.typ \
-│   └── config.typ \
+│   ├── config.typ \
+│   └── bibliography.yml \
 ├── target \
 │      └── main.pdf \
 ├── main.typ \
@@ -42,7 +43,9 @@ Se invece si sta usando l'editor online non è possibile (che io sappia) compila
 3. Modificare `main.typ` per aggiungere o rimuovere sezioni nel documento
 4. Modificare i file in `content/sections` per cambiare il contenuto del documento
 5. Modificare `config.typ` per cambiare le impostazioni di formattazione globali o aggiungere/rimuovere variabili globali
-6. Compilare con `typst compile main.typ target/main.pdf`
+6. Modificare la bibliografia nel file `bibliography.yml` utilizzando il formato [Hayagriva](https://github.com/typst/hayagriva/blob/main/docs/file-format.md) 
+> **_NOTA_** *typst* supporta anche il formato *BibLaTeX* (estensione `.bib`)
+7. Compilare con `typst compile main.typ target/main.pdf`
 
 ### Editor online
 *TODO*
